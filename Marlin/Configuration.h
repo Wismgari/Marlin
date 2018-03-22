@@ -124,7 +124,7 @@
 
 // Optional custom name for your RepStrap or other custom machine
 // Displayed in the LCD "Ready" message
-#define CUSTOM_MACHINE_NAME "CR10S v1.1.8 Wism Mk4"
+#define CUSTOM_MACHINE_NAME "Wism v1.1.8 E3D Mk1   "
 
 // Define this to set a unique identifier for this printer, (Used by some programs to differentiate between machines)
 // You can use an online service to generate a random UUID. (eg http://www.uuidgenerator.net/version4)
@@ -329,7 +329,7 @@
 // When temperature exceeds max temp, your heater will be switched off.
 // This feature exists to protect your hotend from overheating accidentally, but *NOT* from thermistor short/failure!
 // You should use MINTEMP for thermistor short/failure protection.
-#define HEATER_0_MAXTEMP 250
+#define HEATER_0_MAXTEMP 300
 #define HEATER_1_MAXTEMP 275
 #define HEATER_2_MAXTEMP 275
 #define HEATER_3_MAXTEMP 275
@@ -358,7 +358,7 @@
 
   // If you are using a pre-configured hotend then you can use one of the value sets by uncommenting it
 
-  // CR10S from autotune
+  // CR10S from autotune (@150c with e3d, run your own autotune to get specifics for your printer!)
   #define  DEFAULT_Kp 22.14
   #define  DEFAULT_Ki 1.49
   #define  DEFAULT_Kd 82.54
